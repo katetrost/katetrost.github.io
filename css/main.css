@@ -1,0 +1,55 @@
+.content{
+	font-family: 'Roboto', sans-serif;
+}
+.photo {
+	width: 200px;
+	height: 260px;
+	background-image: url("../kate.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.name{
+	font-family: 'Roboto', sans-serif;
+	text-align: end;
+	margin: 5px;
+}
+.job-title{
+	font-style: italic;
+	font-weight: 200;
+}
+.left h3 {
+	text-align: end;
+}
+
+.job{
+	padding-bottom: 10px;
+}
+
+li {
+	text-align: end;
+	list-style: none;
+}
+
+
+.contacts li span {
+	margin-right: 10px;
+}
+
+.left, .right {
+}
+
+.left {
+	width: 27%;
+	float: left;
+	border-right: 1px solid #000;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 0 20px;
+}
+
+.right {
+	width: 67%;
+	float: right;
+}
