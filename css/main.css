@@ -1,6 +1,6 @@
 .content{
 	font-family: 'Roboto', sans-serif;
-	max-width: 900px;
+	max-width: 1200px;
 	height: 100vh;
 	padding-bottom: 50px;
 	padding-top: 30px;
@@ -45,7 +45,7 @@ li {
 }
 
 .left {
-	width: 27%;
+	width: 255px;
 	float: left;
 	border-right: 1px solid #000;
 	display: flex;
@@ -55,6 +55,6 @@ li {
 }
 
 .right {
-	width: 67%;
+	width: calc(100% - 320px);
 	float: right;
 }
