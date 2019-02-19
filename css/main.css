@@ -1,8 +1,11 @@
 .content{
 	font-family: 'Roboto', sans-serif;
+	max-width: 900px;
+	height: 100vh;
+	padding-bottom: 50px;
 }
 .photo {
-	width: 200px;
+	width: 195px;
 	height: 260px;
 	background-image: url("../kate.jpg");
 	background-size: contain;
@@ -12,7 +15,7 @@
 .name{
 	font-family: 'Roboto', sans-serif;
 	text-align: end;
-	margin: 5px;
+	margin: 5px 0;
 }
 .job-title{
 	font-style: italic;
@@ -37,6 +40,7 @@ li {
 }
 
 .left, .right {
+	height: 100%;
 }
 
 .left {
