@@ -1,9 +1,7 @@
 .content{
 	font-family: 'Roboto', sans-serif;
 	max-width: 1200px;
-	height: 100vh;
 	padding-bottom: 50px;
-	padding-top: 30px;
 }
 .photo {
 	width: 195px;
@@ -42,6 +40,7 @@ li {
 
 .left, .right {
 	height: 100%;
+	padding-bottom: 50px;
 }
 
 .left {
